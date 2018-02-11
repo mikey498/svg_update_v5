@@ -30,9 +30,15 @@ a {
   font-weight: 700;
 }
 
-a:hover {
-  color: #111;
-}
+
+
+
+li a:hover .navigation-text { color: rgb(209, 208, 207); }
+
+
+li a:hover .nav-logo { fill: rgb(188, 188, 188); }
+
+
 
 header {
   padding-top: 10px;
@@ -96,7 +102,7 @@ span { margin-right: 35px; }
 }
 
 .nav-logo { fill: rgb(83, 181, 198); }
-.nav-logo:hover { fill: rgb(87, 91, 91); }
+
 
 
 
