@@ -116,53 +116,36 @@ span { margin-right: 35px; }
 
 /*       DOG  -  NAMES     MARGIN     */
 
-  span { margin-right: 35px; }
+  span {
+    margin-right: 10px;
+    
+  }
+
+
 
 
 /*         SABLE-DOG   -   CSS   -   STYLING        */
 
-.Sable .body { fill: rgb(183, 139, 95); }
-.Sable .nose_and_eyes { fill: rgb(37, 42, 48); }
-.Sable .brows { fill: rgb(102, 76, 42); }
-.Sable .white { fill: rgb(186, 168, 156); }
-.Sable .ear { fill:rgb(102, 76, 42); }
-
-
-
+.Sable { color:rgb(183, 139, 95); }
 
 /*         FAWN-DOG   -   CSS   -   STYLING        */
 
-.Fawn .body { fill: rgb(229, 177, 151); }
-.Fawn .nose_and_eyes { fill: rgb(37, 42, 48); }
-.Fawn .brows { fill: rgb(196, 166, 147); }
-.Fawn .white { fill: rgb(186, 168, 156); }
-.Fawn .ear {fill: rgb(89, 84, 82); }
-
+.Fawn { color: rgb(226, 162, 122); }
 
 /*         RED-DOG   -   CSS   -   STYLING        */
 
-.Red .body { fill: rgb(114, 50, 28); }
-.Red .nose_and_eyes { fill: rgb(37, 42, 48); }
-.Red .brows { fill: rgb(155, 105, 83); }
-.Red .white { fill: rgb(214, 161, 147); }
-.Red .ear {fill: rgb(109, 51, 26); }
+.Red { color: rgb(124, 71, 38); }
 
+/*         STONE-DOG   -   CSS   -   STYLING        */
 
-/*         STONE-DOG    -    CSS     -   STYLING          */
-
-.Stone .body { fill: rgb(82, 89, 95); }
-.Stone .nose_and_eyes { fill: rgb(37, 42, 48); }
-.Stone .brows { fill: rgb(131, 146, 153); }
-.Stone .white { fill: rgb(251, 254, 255); }
-
-
+.Stone { color: rgb(77, 84, 89); }
 
 
 
 
 /*           MEDIA  -  QUERIES           */
 
-@media(max-width:420px){
+@media(min-width:420px){
 
 	.logo_text { display: block; }
 
