@@ -82,28 +82,17 @@ main li {
 span { margin-right: 35px; }
 
 
-.paw-print_text {
-  margin-right: 10px;
-  display: none;
-}
 
 
-.nav-item {
-  margin-left: 18px;
-}
+/*     nav - item   */
+.nav-item { margin-left: 18px; }
 
 
 /*        NAV  -  LOGO    STYLING         */
 
-.logo_text {
-   display: none;
-   color: rgb(178, 109, 64);
-   margin: 0px;
-   font-size: 23px;
-}
+.st1 { display: none; }
 
-.nav-logo { fill: rgb(83, 181, 198); }
-
+.logo_text { display: block; }
 
 
 
@@ -117,11 +106,7 @@ span { margin-right: 35px; }
 
 /*       DOG  -  NAMES     MARGIN     */
 
-  span {
-    margin-right: 10px;
-    
-  }
-
+span { margin-right: 10px;}
 
 
 
@@ -146,10 +131,15 @@ span { margin-right: 35px; }
 
 /*           MEDIA  -  QUERIES           */
 
-@media(min-width:420px){
+@media(min-width:425px){
 
-	.logo_text { display: block; }
+  .logo_text {
+     display:none;
+     color: rgb(178, 109, 64);
+     margin: 0px;
+     font-size: 23px;
+  }
 
-	.st1 { display: none; }
-
+.st1 {
+  display: block;
 }
