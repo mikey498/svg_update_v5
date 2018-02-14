@@ -88,8 +88,9 @@ span { margin-right: 35px; }
 }
 
 
-.nav-item { margin-left: -20px;}
-
+.nav-item {
+  margin-left: 18px;
+}
 
 
 /*        NAV  -  LOGO    STYLING         */
